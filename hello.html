@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <head>
 	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 	<body>
 		<title>Nasif Hossain</title>
 
-		<h1>Welcome to my portfolio!</h1>
-
+		<h1 id="headers">Welcome to my portfolio!</h1>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!--nav bar-->
 		<nav>
 			<ul>
@@ -15,47 +16,53 @@
 			</ul>
 		</nav>
 		
-		
-		
-		<p id="section1">This is Nasif Hossain, currently a third year Computing Science student. Welcome to my personal portfolio.</p>
-		<p>I am making these new webpages right now as a portfolio as a practice for my <span class="special">HTML</span>  and <span class="special">CSS</span> skills</p>
-		<h3>Some of the projects I have worked on using Arduinos and other equipments are given below:</h3>
-		<table>
-			<tr>
-				<td>
+
+		<p id="section1">This is Nasif Hossain, currently a third year Computing Science student. Welcome to my personal portfolio.
+		I am making these new webpages right now as a portfolio as a practice for my <span class="special">HTML</span>  and <span class="special">CSS</span> skills.
+		Some of the projects I have worked on using Arduinos and other equipments are given below:</p>
+	
+
+		<!--projects here-->
+		<div >	
+			<table class="project_container">
+				<th>
 					<img src="IMG_5365.jpg" width="100%">
-
-				</td>
-				<td>
+				</th>
+				<th>
 					<img src="Arduino with buttons.jpg" width="100%">
-
-				</td>
-			</tr>
-			<tr>
-				<td>This is the Arduino gamer kit</td>
-				<td>This is the buzzer project with the wires</td>
-			</tr>
-		</table>
-		
-		<table id="table2">
-			<tr>
-				<th id="th">School/University</th>
-				<th id="th">Year of Graduation</th>
-				<th id="th">Major</th>
-			</tr>
-			<tr>
-				<td>University of Alberta</td>
-				<td>2022</td>
-				<td>Computing Science</td>
-			</tr>
-		</table>
+				</th>
+				<tr>
+				</tr>
+				<td>This is the Arduino gamer kit. The gamer kit is just like a small gameboy kit we used to play as kids!</td>
+				<td>This is the buzzer project with Arduinos with the wires.It can be used to play any music on the buzzer by input from the button</td>
+			</table>
+		</div>
+		<div>
+			<h3 class="spec">About me!</h2>
+			<table id="table2">
+				
+					<tr>
+						<th id="th">School/University</th>
+						<th id="th">Year of Graduation</th>
+						<th id="th">Major</th>
+					</tr>
+					<tr>
+						<td>University of Alberta</td>
+						<td>2022</td>
+						<td>Computing Science</td>
+					</tr>
+			</table>
+		</div>
 		<form>
 			<h5>Keep in touch with me!</h5>
 			<input type="tel" placeholder="Name">
 			<input type="text" placeholder="Email" name= "name">
 			<h5>Send a message!</h5>
-			<input type="text" placeholder="Message">
+			<input type="text" placeholder="Message" width="30%">
 			<button>Submit</button>
+		</form>
+		<form >
+			
 		</form>
 
 		<h4><div>
