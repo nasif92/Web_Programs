@@ -21,8 +21,11 @@ body{
 table{
 	border: 2px solid rgb(155, 91, 104);
 	border-collapse: collapse;
-	width: 70%;
+	width: 90%;
 
+}
+#table2{
+	margin-top: 20px;
 }
 button{
 	width:10%;
