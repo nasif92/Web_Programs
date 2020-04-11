@@ -1,10 +1,19 @@
 h1{
+	padding: 50px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: blue;
 	text-align: center;
+	background-color: gold;
+	size: 100%;
 
 }
-
+p{
+	font-size: large;
+	text-align: center;
+}
+body{
+	background-color: lightcyan;
+}
 #spec1{
 	font-size: large;
 	color: burlywood;
@@ -39,6 +48,10 @@ form{
 	padding-left: 5px;
 }
 
+.special{
+	font-weight: bold;
+	color: maroon;
+}
 #personal{
 	font-size: medium;
 	color: black;
@@ -51,7 +64,5 @@ form{
 	margin-top: 20px;
 }
 body{
-	margin-top: 20px;
-	margin-left: 40px;
 	margin-bottom: 40px;
 }
