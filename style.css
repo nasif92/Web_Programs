@@ -17,7 +17,7 @@ h3{
 .main_header{
 	padding: 10px;
 	background: url('background_image.jpg'),url('background_img2.jpg');
-	background-size: 70% 100%;
+	background-size: 100% 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 100%;
