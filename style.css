@@ -97,6 +97,12 @@ body{
 	margin-bottom: 40px;
 }
 
+.alert {
+	margin: 20px;
+}
+
 #message{
-	size: 100px;
+	align-content: top;
+	height: 100px;
+	width:400px;
 }
