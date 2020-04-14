@@ -14,15 +14,14 @@
 	margin: 10px;
 }
 a:link, a:visited {
-	color: black;
+	color: white;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 }
 
 #nav_holder{
-	background: rgb(0,212,255);
-	background: linear-gradient(157deg, rgba(0,212,255,1) 41%, rgba(9,9,121,1) 100%, rgba(2,0,36,1) 100%);
+	background: rgb(41, 51, 61);
 	list-style: none;
 	padding: 1%;
 }
@@ -44,7 +43,7 @@ h3{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-align: center;
 	padding-top: 10%;
-	padding-bottom: 30%;
+	padding-bottom: 32%;
 	font-style: normal;
 	color: black;
 }
@@ -122,7 +121,6 @@ h4{
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
-	height: 30%;
 }
 .project_container > div {
 	font-size: 20px;
