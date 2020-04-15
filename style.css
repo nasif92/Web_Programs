@@ -7,12 +7,6 @@
 	color: white;
 }
 
-
-
-@media (min-width: 500px){
-	
-}
-
 /*Profile picture stuff*/
 .profile_picture{
 	vertical-align: middle;
@@ -91,15 +85,22 @@ td{
 }
 
 
-#section1{
+.section1{
 	text-align: center;
 	font-size: large;
-	@media (max-width: 500 px) {
-		p::before{
-			content: "Welcome to Nasif Hossain's website!";
-		}
-	}
+	margin: 20px;
 }
+/*Media screen does not work, I DON'T know why */
+@media screen and (min-width: 600px) {
+	.section1::before{
+	content: "Welcome to Nasif Hossain's website!";
+}
+@media screen and (max-width: 599px) {
+	.section1::before{
+		content: "Welcome";
+	} 
+}
+
 
 form{
 	padding: 40px;
@@ -107,44 +108,49 @@ form{
 	padding-left: 5px;
 	text-align: center;
 }
-h4{
-	text-align: center;
-	padding-top: 10px;
-	padding: 10px;
-}
 
 .spec{
 	margin-top: 40px;
 	color: white;
 }
+.spec2{
+	color: black;
+	font-weight: bold;
+	margin-left: 1.5%;
+}
 .citation{
 	font-style: italic;
 	margin-left: 20px;
 }
+/*This font is for software I have used in making the website*/
 .special{
 	font-weight: bold;
 	color: maroon;
 }
-#personal{
-	font-size: medium;
-	color: black;
-}
-.project_container{
+
+.software_container{
+	
 	display: flex;
 	flex-wrap: wrap;
-	width: 100%;
+	
+	
 }
-.project_container > div {
+.software_container > div {
+	background: rgb(48, 60, 66);
 	font-size: 20px;
+	color: white;
 	margin: 20px;
 	padding: 20px;
-	width: 200px;
+	width: 120px;
+	align-items: center;
+	height: 80px;
 }
 
 #contact_me{
 	padding: 40px;
 	text-align: center;
-	background-color: paleturquoise;
+	background-color: rgb(48, 60, 66);
+	color: white;
 	margin-top: 20px;
 }
 

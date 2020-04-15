@@ -1,35 +1,8 @@
-/*Contribution from W3school*/
-* {
-	box-sizing: border-box;
-  }
-.row{
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-
-
-
+/*Background image and navigation bar stuff are in this file*/
+/* Courtesy: W3Schools for the help for the nav bar */  
 .background_image{
 	background: url('My pictures/background_img.jpg');
-	min-height: 720px;
+	min-height: 710px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -74,7 +47,7 @@
   color: black;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
   #topnav a {
     float: none;
     width: 100%;
@@ -85,4 +58,12 @@
   padding-top: 430px;
   color: white;
 	text-align: center;
+}
+
+.grid_holder{
+  background-color:  rgb(48, 60, 66);
+  display: grid;
+  padding:20px;
+  grid-row: 10px columngap;
+  grid-template-columns: 200px 200px;
 }
