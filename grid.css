@@ -65,5 +65,12 @@
   display: grid;
   padding:20px;
   grid-row: 10px columngap;
-  grid-template-columns: 200px 200px;
+  grid-template-columns: 200px 200px auto auto;
+}
+
+.grid_item{
+  background-color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
 }

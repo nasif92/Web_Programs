@@ -9,15 +9,10 @@
 
 /*Profile picture stuff*/
 .profile_picture{
-	vertical-align: middle;
-	width: 150px;
-	height: 150px;
-	padding-left: 10px;
 	border-radius: 50%;
-	border-color: white;
-	border-width: 2px;
+	width: 150px;
+	margin-top: 20px;
 	z-index: 1;
-	top:-120px; 
 	position: relative;
 }
 
