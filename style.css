@@ -27,9 +27,9 @@
 	position: relative;
 }
 
-
-body{
-	background-color: lightblue;	
+#summary{
+	text-align: center;
+	color: white;
 }
 
 h3{
@@ -64,8 +64,7 @@ button:hover{
 
 
 .ualberta{
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 40px;
 	background: url('My pictures/ualberta.jpg');
 	min-height: 700px;
 	background-position: center;
@@ -120,6 +119,7 @@ h4{
 }
 .citation{
 	font-style: italic;
+	margin-left: 20px;
 }
 .special{
 	font-weight: bold;

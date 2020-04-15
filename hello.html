@@ -13,9 +13,13 @@
 		
 		<div class="background_image">
 			<h1 class="main_header">Welcome to my portfolio!</h1>
+			<div id="summary">
+				<p>This is Nasif Hossain, currently a basic Frontend Developer</p>
+			</div>
+			
 			<div class="container">
 				
-				<div class="topnav">
+				<div id="topnav">
 					<a href="#section1" >HOME</a>
 					<a href="#table2" >ABOUT ME</a>
 					<a href="projects.html">PROJECTS</a>
@@ -26,6 +30,19 @@
 					
 			</div>
 		</div>
+			<!--Putting some javascript here-->
+			<script>
+				// When the user scrolls down 20px from the top of the document, slide down the navbar
+				window.onscroll = function() {scrollFunction()};
+				
+				function scrollFunction() {
+				  if (document.body.scrollTop > 550 || document.documentElement.scrollTop > 550) {
+					document.getElementById("topnav").style.top = "0px";
+				  } else {
+					document.getElementById("topnav").style.top = "650px";
+				  }
+				}
+			</script>
 		<div class="alert alert-primary" role="alert" size="70%">
 			Stay safe during the COVID-19 pandemic!
 		</div>
@@ -37,7 +54,7 @@
 		I am currently learning to use <span class="special">Bootstrap</span> as well as <span class="special">PHP</span> to make my webpages more responsive!
 		Some of the personal and school projects are in this page. Hope you enjoy!</p>
 	
-
+	
 		<!--projects here-->
 	
 		<div class="ualberta">

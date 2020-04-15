@@ -44,8 +44,8 @@
 
 
 .background_image{
-	background: url('background_image.jpg');
-	min-height: 700px;
+	background: url('My pictures/background_img.jpg');
+	min-height: 720px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -63,14 +63,21 @@
 }
 
 /* The navbar */
-.topnav {
+#topnav {
+  top: 650px;
+  z-index: 2;
+  position: fixed;
   overflow: hidden;
+  display: block;
   background-color: #333;
+  transition: top 1s;
+
 }
 
 /* Navbar links */
-.topnav a {
+#topnav a {
   float: left;
+  display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 20px;
@@ -78,13 +85,14 @@
   font-size: 17px;
 }
 
-.topnav a:hover {
+#topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
 /* Navbar links */
 .main_header{
-	padding-top: 50px;
+  padding-top: 430px;
+  color: white;
 	text-align: center;
 }
