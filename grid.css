@@ -2,7 +2,7 @@
 /* Courtesy: W3Schools for the help for the nav bar */  
 .background_image{
 	background: url('My pictures/background_img.jpg');
-	min-height: 710px;
+	min-height: fit-content;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;

@@ -11,7 +11,8 @@
 .profile_picture{
 	border-radius: 50%;
 	width: 150px;
-	margin-top: 20px;
+	margin: 20px;
+	margin-bottom: 30px;
 	z-index: 1;
 	position: relative;
 }
