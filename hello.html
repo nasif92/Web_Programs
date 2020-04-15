@@ -2,20 +2,30 @@
 <head>
 	<link href="style.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="grid.css" rel="stylesheet">
+	<title>Nasif Hossain</title>
+</head>
 
-	<body>
-		<title>Nasif Hossain</title>
+<body>
+		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-		<h1 class="main_header">Welcome to my portfolio!</h1>
 		<!--nav bar-->
-		<nav>
-			<ul id="nav_holder">
-				<li id="navigation_style"><a href="#section1" >HOME</a></li>
-				<li id="navigation_style"><a href="#table2" >ABOUT ME</a></li>
-				<li id="navigation_style"><a href="project.html">PROJECTS</a></li>
-			</ul>
-		</nav>
+		
+		<div class="background_image">
+			<h1 class="main_header">Welcome to my portfolio!</h1>
+			<div class="container">
+				
+				<div class="topnav">
+					<a href="#section1" >HOME</a>
+					<a href="#table2" >ABOUT ME</a>
+					<a href="projects.html">PROJECTS</a>
+					<a href="https://www.linkedin.com/in/nasif-hossain-2892ualberta/" class="icon brands fa-linkedin"><span class="label">Linkedin	</span></a>
+					<a href="https://github.com/pickabo" class="icon brands fa-github"><span class="label">GitHub</span></a>
+					<a href="https://www.codewars.com/users/RhodeyRed_92">CodeWars</a>
+				</div>
+					
+			</div>
+		</div>
 		<div class="alert alert-primary" role="alert" size="70%">
 			Stay safe during the COVID-19 pandemic!
 		</div>
@@ -25,40 +35,32 @@
 		<p id="section1">This is Nasif Hossain, currently a third year Computing Science student. Welcome to my personal portfolio.
 		I am making these new webpages right now as a portfolio as a practice for my <span class="special">HTML</span>  and <span class="special">CSS</span> skills.
 		I am currently learning to use <span class="special">Bootstrap</span> as well as <span class="special">PHP</span> to make my webpages more responsive!
-		Some of the projects I have worked on using Arduinos and other equipments are given below:</p>
+		Some of the personal and school projects are in this page. Hope you enjoy!</p>
 	
 
 		<!--projects here-->
-		<div >	
-			<table class="project_container">
-				<th>
-					<img src="IMG_5365.jpg" width="100%">
-				</th>
-				<th>
-					<img src="Arduino with buttons.jpg" width="100%">
-				</th>
-				<tr>
-				</tr>
-				<td>This is the Arduino gamer kit. The gamer kit is just like a small gameboy kit we used to play as kids!</td>
-				<td>This is the buzzer project with Arduinos with the wires.It can be used to play any music on the buzzer by input from the button</td>
-			</table>
+	
+		<div class="ualberta">
+			<div class="container">
+				<h3 class="spec">About me!</h2>
+					<table id="table2">
+						
+							<tr>
+								<th id="th">School/University</th>
+								<th id="th">Estimated Graduation Date</th>
+								<th id="th">Major</th>
+							</tr>
+							<tr>
+								<td>University of Alberta</td>
+								<td>2022</td>
+								<td>Computing Science</td>
+							</tr>
+					</table>
+			</div>
+
 		</div>
-		<div>
-			<h3 class="spec">About me!</h2>
-			<table id="table2">
-				
-					<tr>
-						<th id="th">School/University</th>
-						<th id="th">Year of Graduation</th>
-						<th id="th">Major</th>
-					</tr>
-					<tr>
-						<td>University of Alberta</td>
-						<td>2022</td>
-						<td>Computing Science</td>
-					</tr>
-			</table>
-		</div>
+		<p class="citation">Collected from google</p>
+	
 		<form>
 			<h5>Keep in touch with me!</h5>
 			<input type="tel" placeholder="Name">
@@ -83,4 +85,3 @@
 	
 
 	</body>
-</head>
