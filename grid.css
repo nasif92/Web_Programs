@@ -90,6 +90,12 @@
   color: black;
 }
 
+@media screen and (max-width: 600px) {
+  #topnav a {
+    float: none;
+    width: 100%;
+  }
+}
 /* Navbar links */
 .main_header{
   padding-top: 430px;
