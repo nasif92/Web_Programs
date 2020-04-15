@@ -129,10 +129,8 @@ form{
 }
 
 .software_container{
-	
 	display: flex;
 	flex-wrap: wrap;
-	
 	
 }
 .software_container > div {
