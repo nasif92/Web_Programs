@@ -1,0 +1,19 @@
+.background_image{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	color: black;
+}
+
+.photo_container{
+  position: relative;
+}
+
+.information_block{
+	position: absolute;
+  	top: 20px;
+ 	left: 20px;
+  	color: white;
+  	padding-left: 20px;
+  	padding-right: 20px;
+}

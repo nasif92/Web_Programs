@@ -42,7 +42,8 @@ table{
 }
 #table2{
 	margin-top: 20px;
-	width: 70%;
+	width: 150px;
+	height: 150px;
 }
 button{
 	width:10%;
@@ -55,7 +56,6 @@ button:hover{
 
 .ualberta{
 	margin-top: 40px;
-	background: url('My pictures/ualberta.jpg');
 	min-height: 700px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -125,9 +125,10 @@ form{
 }
 
 .software_container{
+	margin: 20px;
 	display: flex;
-	flex-wrap: wrap;
-
+	flex-flow: row wrap;
+	background-color: wheat;
 }
 .software_container > div {
 	background: rgb(48, 60, 66);

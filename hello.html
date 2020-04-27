@@ -3,12 +3,16 @@
 	<link href="style.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link href="grid.css" rel="stylesheet">
+	<link href="backgrounds.css" rel="stylesheet">
+
 	<title>Nasif Hossain</title>
+	<meta charset="UTF-8">
+
 </head>
 
 <body>
-		
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 		<!--nav bar-->
 		
 		<div class="background_image">
@@ -57,7 +61,7 @@
 			Some of the personal and school projects are in this page. Hope you enjoy!
 		</div>
 	
-	
+		
 	
 		<!--software here-->
 		<div class="spec2">MY SKILLSET CURRENTLY</div>
@@ -68,39 +72,48 @@
 			<div>C++</div>
 			<div>Android</div>
 			<div>SqLite</div>
+			<div>SQL</div>
 			<div>HTML</div>
 			<div>CSS</div>
 			<div>javascript</div>
 		</div>
-		<div class="ualberta">
-			<div class="container">
-				<h3 class="spec">About me!</h2>
-					<table id="table2">
-						
-							<tr>
-								<th id="th">School/University</th>
-								<th id="th">Estimated Graduation Date</th>
-								<th id="th">Major</th>
-							</tr>
-							<tr>
-								<td>University of Alberta</td>
-								<td>2022</td>
-								<td>Computing Science</td>
-							</tr>
-					</table>
-			</div>
+		<div class="photo_container">
 
+			<img src="My pictures/ualberta.jpg" style="width: 100%; height: 70%;">
+				<div class="information_block">
+					<h3 class="spec">About me!</h2>
+						<table id="table2">
+							<script>document.write("This is written in")</script>
+								<tr>
+									<th id="th">School/University</th>
+									<th id="th">Estimated Graduation Date</th>
+									<th id="th">Major</th>
+								</tr>
+								<tr>
+									<td>University of Alberta</td>
+									<td>2022</td>
+									<td>Computing Science</td>
+								</tr>
+						</table>
+				</div>	
+			</img>
 		</div>
+
+		
+
 		<p class="citation">Collected from google</p>
-	
-		<form>
+		<!--Contact form stuff-->
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700"
+	rel ="stylesheet">
+		<form class="contact-form" action="contactform.php" method="POST">
 			<h5>Keep in touch with me!</h5>
-			<input type="tel" placeholder="Name">
-			<input type="text" placeholder="Email" name= "name">
-			<p></p>
+			<input type="text" name="fname" placeholder="First Name">
+			<input type="text" name="lname" placeholder="Last Name">
+
+			<input type="text" name="mail" placeholder="Email" name= "name">
 			<h5>Send a message!</h5>
-			<input id="message" type="text" placeholder="Message">
-			<button style="vertical-align: baseline;">Submit</button>
+			<textarea name="message" placeholder="Message"></textarea>
+			<button type="submit" name="submit">Submit</button>
 
 		</form>
 		<div id="contact_me">

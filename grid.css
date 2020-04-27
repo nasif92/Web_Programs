@@ -2,14 +2,16 @@
 /* Courtesy: W3Schools for the help for the nav bar */  
 .background_image{
 	background: url('My pictures/background_img.jpg');
-	min-height: fit-content;
 	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	
+  background-repeat: no-repeat;
+  background-size: cover;
+	width: 100%;
+	height: auto;
 	/* Needed to position the navbar */
 	position: relative;
 }
+
+
 
 
 /* Position the navbar container inside the image */
@@ -27,7 +29,7 @@
   overflow: hidden;
   display: block;
   background-color: #333;
-  transition: top 1s;
+  transition: top .3s;
 
 }
 
@@ -37,7 +39,7 @@
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 20px;
+  padding: 5px 20px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -47,12 +49,12 @@
   color: black;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   #topnav a {
     float: none;
     width: 100%;
   }
-}
+} */
 /* Navbar links */
 .main_header{
   padding-top: 430px;
